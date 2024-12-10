@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-image: url(rrr.jpg);
+}
+
+
+
+header {
+    background-color: #007bff; /* Blue */
+    color: rgb(10, 91, 122);
+    padding: 15px 15PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Section */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Makes the logo circular */
+    object-fit: cover; /* Ensures the image fits within the circle */
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(132, 183, 212);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 8.37);
+    border: 1.5px solid rgba(255, 255, 255, 0.18);
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+    backdrop-filter: blur();
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 8.37);
+    border: 1.5px solid rgba(255, 255, 255, 0.18);
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+    border-radius: 4px;
+    
+}
+.main-content {
+    max-width: px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.main-content h1 {
+    color: #007bff;
+    margin-bottom: 40px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center; /* Center align text */
+}
+
+.card {
+    max-width: 700px;
+    margin: 20px auto;
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+.card h2 {
+    font-size: 1.8rem;
+    color: #007bff; /* Matching color */
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+   color: black;
+    line-height: 1.5;
+}
+
+h1{
+    
+    margin: 50px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content vertically */
+    align-items: center;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    
+
+}
+
+.upper{
+
+border-radius: 10px;
+max-width: 700px;
+margin: 2px auto;
+backdrop-filter: blur(40px);
+padding: 1px;
+box-shadow: 8 8px 32
+
+
+}
+
+
+.table-container {
+overflow-x: auto;
+margin-top: 20px;
+}
+
+table {
+width: 800px;
+border-radius: 10px;
+border-collapse: collapse;
+max-width: 900px;
+margin: 30px auto;
+backdrop-filter: blur(40px);
+padding: 20px;
+box-shadow: 8 8px 32
+}
+
+th, td {
+border: 1px solid #ddd;
+padding: 5px;
+text-align: center;
+color: rgb(6, 6, 37);
+
+}
+
+th {
+background-color: #007bff;
+color: white;
+}
